@@ -5,7 +5,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
  
 // Importamos un componente llamado ProyectoGif desde otro archivo en el mismo directorio
-import { ProyectoGif } from "./ProyectoGIF";
+import { ProyectoGif } from "./ProyectoGif";
 
 //Importamos los estilos que se encuentran en src. ¿Qué significaba "./"?
 import './styles.css'

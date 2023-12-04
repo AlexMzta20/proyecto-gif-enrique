@@ -1,5 +1,6 @@
 // Importamos el componente GifItem 
 import { GifItem } from './GifItem';
+
 // Importamos el hook personalizado useFetchGifs 
 import { useFetchGifs } from '../hooks/useFetchGifs';
 
@@ -36,4 +37,4 @@ clave única y las propiedades de la imagen */}
 
         </>
     )
-} 
+}

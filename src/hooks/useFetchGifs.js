@@ -1,13 +1,16 @@
 // Importamos useEffect y useState de React
 import { useEffect, useState } from 'react';
+
 // Importamos la función getGifs de helpers
 import { getGifs } from '../helpers/getGifs';
+
 // Definimos un hook personalizado llamado useFetchGifs que toma una categoría como
-//argumento
+// argumento
 export const useFetchGifs = (category) => {// Creamos una variable de estado images y una función para actualizarla setImages
     const [images, setImages] = useState([]);
 
     const [isLoading, setIsLoading] = useState(true);
+    
     // Definimos una función asíncrona getImages
     const getImages = async () => {
         // Obtenemos nuevas imágenes de la categoría con la función getGifs

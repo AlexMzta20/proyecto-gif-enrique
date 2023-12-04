@@ -1,5 +1,6 @@
 //import React from 'react';
 import PropTypes from 'prop-types';
+
 // Definimos un componente funcional llamado GifItem que toma title, url e id como props
 export const GifItem = ({ title, url }) => {
     // Devolvemos el JSX que se renderizará
@@ -14,6 +15,7 @@ export const GifItem = ({ title, url }) => {
         </div>
     )
 }
+
 GifItem.propTypes = {
     title: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,

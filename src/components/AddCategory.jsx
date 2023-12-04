@@ -1,5 +1,8 @@
 // Importamos la función useState de React
 import { useState } from 'react';
+
+// Importa la biblioteca prop-types que proporciona utilidades para especificar y 
+// validar los tipos de propiedades (props) esperadas por los componentes React
 import PropTypes from 'prop-types';
 
 // Definimos un componente funcional llamado AddCategory
@@ -42,6 +45,7 @@ export const AddCategory = ({ onNewCategory }) => {
         </form>
     );
 }
+
 AddCategory.propTypes = {
     onNewCategory: PropTypes.func.isRequired,
 };
